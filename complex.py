@@ -6,6 +6,7 @@ class Complex:
     def show(self):
         print(self.r ,'+ (' , self.i ,'i )')
 
+        
     def sum(self , other):
         return Complex(self.r + other.r , self.i + other.i)
     
